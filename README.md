@@ -1,19 +1,19 @@
 <p align="center">
-  <a href="https://amkargar.github.io/GoNex-website/">
+  <a href="https://amkargar.github.io/gonex-website/">
     <img src="docs/assets/gonex-header.svg" alt="goNex — an API-first Go framework" width="760">
   </a>
 </p>
 
 <p align="center">
-  <a href="https://amkargar.github.io/GoNex-website/"><strong>Website</strong></a> ·
-  <a href="https://amkargar.github.io/GoNex-website/docs/main/">Documentation</a> ·
-  <a href="https://amkargar.github.io/GoNex-website/docs/main/quick-start/">Get started</a> ·
-  <a href="https://amkargar.github.io/GoNex-website/docs/main/contribute/">Contribute</a>
+  <a href="https://amkargar.github.io/gonex-website/"><strong>Website</strong></a> ·
+  <a href="https://amkargar.github.io/gonex-website/docs/main/">Documentation</a> ·
+  <a href="https://amkargar.github.io/gonex-website/docs/main/quick-start/">Get started</a> ·
+  <a href="https://amkargar.github.io/gonex-website/docs/main/contribute/">Contribute</a>
 </p>
 
 [![Go 1.27.2](https://img.shields.io/badge/Go-1.27.2-00ADD8?logo=go&logoColor=white)](https://go.dev/)
 [![CI status](https://github.com/amkargar/gonex/actions/workflows/test.yml/badge.svg)](https://github.com/amkargar/gonex/actions/workflows/test.yml)
-[![Documentation](https://img.shields.io/badge/docs-gonex-f7d34c)](https://amkargar.github.io/GoNex-website/docs/main/)
+[![Documentation](https://img.shields.io/badge/docs-gonex-f7d34c)](https://amkargar.github.io/gonex-website/docs/main/)
 [![License: BSD-3-Clause](https://img.shields.io/badge/license-BSD--3--Clause-blue)](LICENSE)
 
 **Gonex is an API-first Go framework for building modular JSON APIs.** It brings together typed request and response schemas, validation, OpenAPI and a project CLI, while keeping your business logic in plain Go. Gonex is free and open source.
@@ -22,14 +22,14 @@ Its DRF-inspired workflow starts with your application: install Gonex, generate 
 
 ## Documentation
 
-- [Install Gonex and its CLI](https://amkargar.github.io/GoNex-website/docs/main/installation/)
-- [Create your first API project](https://amkargar.github.io/GoNex-website/docs/main/quick-start/)
-- [Build a REST API](https://amkargar.github.io/GoNex-website/docs/main/building-api/)
-- [Browse the documentation](https://amkargar.github.io/GoNex-website/docs/main/)
-- [CLI reference](https://amkargar.github.io/GoNex-website/docs/main/cli/)
-- [Server output and logging](https://amkargar.github.io/GoNex-website/docs/main/logging/)
+- [Install Gonex and its CLI](https://amkargar.github.io/gonex-website/docs/main/installation/)
+- [Create your first API project](https://amkargar.github.io/gonex-website/docs/main/quick-start/)
+- [Build a REST API](https://amkargar.github.io/gonex-website/docs/main/building-api/)
+- [Browse the documentation](https://amkargar.github.io/gonex-website/docs/main/)
+- [CLI reference](https://amkargar.github.io/gonex-website/docs/main/cli/)
+- [Server output and logging](https://amkargar.github.io/gonex-website/docs/main/logging/)
 
-Visit the **[Gonex website](https://amkargar.github.io/GoNex-website/)** for an introduction, code examples and the [project journal](https://amkargar.github.io/GoNex-website/blog/). Documentation includes a version selector; application HTTP API versions are configured separately.
+Visit the **[Gonex website](https://amkargar.github.io/gonex-website/)** for an introduction, code examples and the [project journal](https://amkargar.github.io/gonex-website/blog/). Documentation includes a version selector; application HTTP API versions are configured separately.
 
 ## Get started
 
@@ -55,25 +55,25 @@ Open [http://127.0.0.1:8080/users](http://127.0.0.1:8080/users) for the starter 
 
 The terminal displays the server URL and request logs. Your API contract is available at [http://127.0.0.1:8080/openapi.json](http://127.0.0.1:8080/openapi.json). Press Ctrl+C to stop gracefully.
 
-**Development status:** Gonex has no published release yet. `@main` installs a development snapshot; use a reviewed commit or an actual published tag to select a particular version. Generated projects pin the installed CLI's resolved framework version. See the [release status](https://amkargar.github.io/GoNex-website/docs/main/release/) and [changelog](CHANGELOG.md).
+**Development status:** Gonex has no published release yet. `@main` installs a development snapshot; use a reviewed commit or an actual published tag to select a particular version. Generated projects pin the installed CLI's resolved framework version. See the [release status](https://amkargar.github.io/gonex-website/docs/main/release/) and [changelog](CHANGELOG.md).
 
 ## About Gonex
 
 ### APIs with a clear contract
 
-Define request and response DTOs in `schemas.go`, map requests in handlers, and register typed endpoints with explicit methods and statuses. Strict JSON binding, validation and OpenAPI 3.1 describe the API you implement. See [HTTP contracts](https://amkargar.github.io/GoNex-website/docs/main/http/).
+Define request and response DTOs in `schemas.go`, map requests in handlers, and register typed endpoints with explicit methods and statuses. Strict JSON binding, validation and OpenAPI 3.1 describe the API you implement. See [HTTP contracts](https://amkargar.github.io/gonex-website/docs/main/http/).
 
 ### A productive development workflow
 
-The CLI creates projects, modules and optional adapters. Generated registries are protected against conflicting edits; handwritten services, schemas and handlers remain yours. The [REST API tutorial](https://amkargar.github.io/GoNex-website/docs/main/building-api/) develops create, list and get actions inside a generated application.
+The CLI creates projects, modules and optional adapters. Generated registries are protected against conflicting edits; handwritten services, schemas and handlers remain yours. The [REST API tutorial](https://amkargar.github.io/gonex-website/docs/main/building-api/) develops create, list and get actions inside a generated application.
 
 ### Plain Go at the center
 
-Modules compose services explicitly. Gin HTTP handlers, optional GORM repositories and gRPC adapters translate at the boundaries. Start with a modular monolith and add integrations as the application grows. Read the [architecture guide](https://amkargar.github.io/GoNex-website/docs/main/architecture/) or explore the [source examples](examples/).
+Modules compose services explicitly. Gin HTTP handlers, optional GORM repositories and gRPC adapters translate at the boundaries. Start with a modular monolith and add integrations as the application grows. Read the [architecture guide](https://amkargar.github.io/gonex-website/docs/main/architecture/) or explore the [source examples](examples/).
 
 ### Visibility while you build and run
 
-Application startup reports the bound server address. Structured request logs include a request ID, status and duration, with readable development output and JSON in production. Managed resources, health checks, readiness and graceful shutdown support the application lifecycle. See [logging](https://amkargar.github.io/GoNex-website/docs/main/logging/) and [operations](https://amkargar.github.io/GoNex-website/docs/main/operations/).
+Application startup reports the bound server address. Structured request logs include a request ID, status and duration, with readable development output and JSON in production. Managed resources, health checks, readiness and graceful shutdown support the application lifecycle. See [logging](https://amkargar.github.io/gonex-website/docs/main/logging/) and [operations](https://amkargar.github.io/gonex-website/docs/main/operations/).
 
 ## Production readiness
 
@@ -81,7 +81,7 @@ Hardening, verification commands and outstanding release gates are tracked in th
 
 ## Contributing
 
-Contributions are welcome. Start with [Contribute to Gonex](https://amkargar.github.io/GoNex-website/docs/main/contribute/) for framework setup, architecture, testing and pull requests. The [source documentation index](docs/README.md) contains implementation references and maintenance guides.
+Contributions are welcome. Start with [Contribute to Gonex](https://amkargar.github.io/gonex-website/docs/main/contribute/) for framework setup, architecture, testing and pull requests. The [source documentation index](docs/README.md) contains implementation references and maintenance guides.
 
 Use [GitHub Issues](https://github.com/amkargar/gonex/issues) to report reproducible bugs or discuss improvements. Review [compatibility and upgrades](docs/upgrade.md) and the [release policy](docs/release.md) when changing public contracts.
 

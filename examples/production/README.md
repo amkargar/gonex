@@ -2,7 +2,7 @@
 
 This is a standalone, API-only consumer of a pinned public Gonex commit. Its go.mod has no replace or go.work dependency on this checkout. You can copy this directory outside the framework repository and run it independently. It is a production-like verification sample, not a declaration that every production-readiness gate is complete.
 
-For a new application, follow the public CLI quick start: https://amkargar.github.io/GoNex-website/docs/main/quick-start/ . This advanced sample owns its custom bootstrap/module wiring and uses ordinary Go build/run commands rather than pretending it is an unmodified CLI scaffold.
+For a new application, follow the public CLI quick start: https://amkargar.github.io/gonex-website/docs/main/quick-start/ . This advanced sample owns its custom bootstrap/module wiring and uses ordinary Go build/run commands rather than pretending it is an unmodified CLI scaffold.
 
 ## Features and boundaries
 

@@ -21,7 +21,7 @@
 <section class="welcome">
 <div><span class="eyebrow">Your API starts here</span><h1>Welcome to Gonex.</h1>
 <p>Your application is running. Build your first typed endpoint, explore the docs, and make something yours.</p>
-<div class="actions"><a class="button primary" href="https://amkargar.github.io/GoNex-website/docs/main/">Read the documentation ↗</a><a class="button" href="https://amkargar.github.io/GoNex-website/">Gonex website ↗</a></div>
+<div class="actions"><a class="button primary" href="https://amkargar.github.io/gonex-website/docs/main/">Read the documentation ↗</a><a class="button" href="https://amkargar.github.io/gonex-website/">Gonex website ↗</a></div>
 {{if .OpenAPI}}<p class="small"><a href="/openapi.json">Explore your OpenAPI contract →</a></p>{{end}}
 <p class="small muted">This page appears because DEBUG=true and your app has no matching route for GET /. Add your own root route to replace it.</p>
 </div>
@@ -34,7 +34,7 @@
 <section class="panel"><h2>Request</h2><dl class="meta"><dt>Method</dt><dd>{{.Method}}</dd><dt>Path</dt><dd>{{.Path}}</dd><dt>Route</dt><dd>{{if .Matched}}{{.Matched}}{{else}}No matching route{{end}}</dd>{{if .RequestID}}<dt>Request ID</dt><dd><code>{{.RequestID}}</code></dd>{{end}}</dl></section>
 {{if .Stack}}<details class="panel" open><summary>Stack trace</summary><pre>{{.Stack}}</pre></details>{{end}}
 {{if .Routes}}<details class="panel" {{if eq .Status 404}}open{{end}}><summary>Registered routes</summary><ul class="routes">{{range .Routes}}<li><span>{{.Method}}</span><span>{{.Path}}</span></li>{{end}}</ul></details>{{end}}
-<div class="actions"><a class="button primary" href="https://amkargar.github.io/GoNex-website/docs/main/">Documentation ↗</a><a class="button" href="/">Back to your app</a></div>
+<div class="actions"><a class="button primary" href="https://amkargar.github.io/gonex-website/docs/main/">Documentation ↗</a><a class="button" href="/">Back to your app</a></div>
 {{end}}
 </main>
 <footer>{{.Name}} · Gonex {{.Version}}<br>Development page · Set DEBUG=false to disable these pages and hide diagnostic details.</footer>

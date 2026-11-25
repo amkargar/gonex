@@ -99,7 +99,7 @@ func debugCall(t *testing.T, a *app.App, method, path, accept, body string) *htt
 func TestDebugWelcomeAndEmbeddedDuck(t *testing.T) {
 	a := debugApp(t, true, false, false)
 	w := debugCall(t, a, "GET", "/", "text/html", "")
-	if w.Code != 200 || !strings.Contains(w.Body.String(), "Welcome to Gonex") || !strings.Contains(w.Body.String(), "/_gonex/debug/duck.webp") || !strings.Contains(w.Body.String(), "GoNex-website/docs/main/") {
+	if w.Code != 200 || !strings.Contains(w.Body.String(), "Welcome to Gonex") || !strings.Contains(w.Body.String(), "/_gonex/debug/duck.webp") || !strings.Contains(w.Body.String(), "gonex-website/docs/main/") {
 		t.Fatal(w.Code, w.Body.String())
 	}
 	if w.Header().Get("Cache-Control") != "no-store" || w.Header().Get("Content-Security-Policy") == "" {
